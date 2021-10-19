@@ -1,0 +1,47 @@
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    width: 300px;
+}
+.login-email{
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: small;
+    margin: .25rem 0 ;
+    min-width: inherit;
+    border: none;
+
+}
+.login-password{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: small;
+    margin: .25rem 0 ;
+    min-width: inherit;
+
+}
+.login-submit{
+    padding: .5rem;
+    font-size: 1rem;
+    min-width: 100%;
+    margin-top: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+
+}
